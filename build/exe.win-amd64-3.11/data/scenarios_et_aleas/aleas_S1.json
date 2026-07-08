@@ -1,0 +1,15 @@
+[
+    {
+        "day_trigger": 6.0,
+        "text": "Retard : La tâche 'Dégraissage' est prolongée de 8h.",
+        "diff": "Facile",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "task_delay",
+                "target_task": "Dégraissage",
+                "added_duration": 8
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "day_trigger": 8.0,
+        "text": "Absence : Le Contrôleur A est absent 1 jour (J9).",
+        "diff": "Facile",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "absence",
+                "target": "Contrôleur A",
+                "duration": 1.0,
+                "day_trigger": 8.0
+            }
+        ]
+    }
+]

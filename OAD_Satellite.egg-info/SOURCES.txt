@@ -1,0 +1,5 @@
+setup_not_hidden.py
+OAD_Satellite.egg-info/PKG-INFO
+OAD_Satellite.egg-info/SOURCES.txt
+OAD_Satellite.egg-info/dependency_links.txt
+OAD_Satellite.egg-info/top_level.txt

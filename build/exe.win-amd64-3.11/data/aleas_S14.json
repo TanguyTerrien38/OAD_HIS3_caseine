@@ -1,0 +1,26 @@
+[
+    {
+        "day_trigger": 1.0,
+        "text": "Retard : La tâche 'Masquage Haute Température' est prolongée de 8h. Retard : La tâche 'Cataphorèse' est prolongée de 8h. Absence : Le Peintre A est absent 1 jour (J5).",
+        "diff": "Moyen",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "task_delay",
+                "target_task": "Masquage Haute Température",
+                "added_duration": 8
+            },
+            {
+                "type": "task_delay",
+                "target_task": "Cataphorèse",
+                "added_duration": 8
+            },
+            {
+                "type": "absence",
+                "target": "Peintre A",
+                "duration": 1.0,
+                "day_trigger": 4.0
+            }
+        ]
+    }
+]

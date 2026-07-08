@@ -1,0 +1,26 @@
+[
+    {
+        "day_trigger": 3.0,
+        "text": "Retard : La tâche 'Laquage Noir' est prolongée de 8h. Indisponibilité : La tâche 'Masquage Haute Température' est bloquée pendant 16h (J4 et J5). Deadline : La tâche 'CTRL Masquage Haute Température' doit se terminer au J7 maximum.",
+        "diff": "Difficile",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "task_delay",
+                "target_task": "Laquage Noir",
+                "added_duration": 8
+            },
+            {
+                "type": "task_unavailable",
+                "target_task": "Masquage Haute Température",
+                "duration": 16,
+                "day_trigger": 3.0
+            },
+            {
+                "type": "deadline",
+                "target_task": "CTRL Masquage Haute Température",
+                "deadline_day": 7.0
+            }
+        ]
+    }
+]

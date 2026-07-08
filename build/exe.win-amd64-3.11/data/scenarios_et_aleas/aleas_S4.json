@@ -1,0 +1,16 @@
+[
+    {
+        "day_trigger": 2.0,
+        "text": "Absence : L'Assembleur B est absent 2 jours (J3 et J4).",
+        "diff": "Facile",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "absence",
+                "target": "Assembleur B",
+                "duration": 2.0,
+                "day_trigger": 2.0
+            }
+        ]
+    }
+]

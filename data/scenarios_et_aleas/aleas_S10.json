@@ -1,0 +1,21 @@
+[
+    {
+        "day_trigger": 4.0,
+        "text": "Retard : La tâche 'Revêtement PTFE' est prolongée de 8h. Absence : L'Assembleur C est absent 1 jour (J6).",
+        "diff": "Moyen",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "task_delay",
+                "target_task": "Revêtement PTFE",
+                "added_duration": 8
+            },
+            {
+                "type": "absence",
+                "target": "Assembleur C",
+                "duration": 1.0,
+                "day_trigger": 5.0
+            }
+        ]
+    }
+]

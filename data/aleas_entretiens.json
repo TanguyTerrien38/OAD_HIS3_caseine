@@ -1,0 +1,53 @@
+[
+    {
+        "day_trigger": 3.0,
+        "diff": "Facile",
+        "text": "Retard : La tâche 'Prépa Surface' est prolongée de 8h.",
+        "effects": [
+            {
+                "type": "task_delay",
+                "target_task": "Prépa Surface",
+                "added_duration": 8
+            }
+        ]
+    },
+    {
+        "day_trigger": 7.0,
+        "diff": "Moyen",
+        "text": "Absence : L'Assembleur B est absent 1 jour. Indisponibilité : La tâche 'Ctrl Final' est bloquée pendant 8h.",
+        "effects": [
+            {
+                "type": "absence",
+                "target": "Assembleur B",
+                "duration": 1.0
+            },
+            {
+                "type": "task_unavailable",
+                "target_task": "Ctrl Final",
+                "duration": 8
+            }
+        ]
+    },
+    {
+        "day_trigger": 9.0,
+        "diff": "Difficile",
+        "text": "Indisponibilité : La tâche 'Sablage' est bloquée pendant 16h. Retard : La tâche 'Apprêt' est prolongée de 8h. Absence : L'Assembleur A est absent 2 jours.",
+        "effects": [
+            {
+                "type": "task_unavailable",
+                "target_task": "Sablage",
+                "duration": 16
+            },
+            {
+                "type": "task_delay",
+                "target_task": "Apprêt",
+                "added_duration": 8
+            },
+            {
+                "type": "absence",
+                "target": "Assembleur A",
+                "duration": 2.0
+            }
+        ]
+    }
+]

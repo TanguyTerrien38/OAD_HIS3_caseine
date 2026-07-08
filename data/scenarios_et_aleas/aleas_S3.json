@@ -1,0 +1,15 @@
+[
+    {
+        "day_trigger": 3.0,
+        "text": "Retard : La tâche 'Masquage' est prolongée de 8h.",
+        "diff": "Facile",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "task_delay",
+                "target_task": "Masquage",
+                "added_duration": 8
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "day_trigger": 6.0,
+        "text": "Absence : Le Contrôleur B est absent 2 jours (J7 et J8). Absence : L'Assembleur B est absent 2 jours (J9 et J10).",
+        "diff": "Moyen",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "absence",
+                "target": "Contrôleur B",
+                "duration": 2.0,
+                "day_trigger": 6.0
+            },
+            {
+                "type": "absence",
+                "target": "Assembleur B",
+                "duration": 2.0,
+                "day_trigger": 8.0
+            }
+        ]
+    }
+]

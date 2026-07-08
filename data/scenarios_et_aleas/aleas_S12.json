@@ -1,0 +1,22 @@
+[
+    {
+        "day_trigger": 6.0,
+        "text": "Absence : L'Assembleur B est absent 1 jour (J7). Absence : L'Assembleur C est absent 1 jour (J7).",
+        "diff": "Moyen",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "absence",
+                "target": "Assembleur C",
+                "duration": 1.0,
+                "day_trigger": 6.0
+            },
+            {
+                "type": "absence",
+                "target": "Assembleur B",
+                "duration": 1.0,
+                "day_trigger": 6.0
+            }
+        ]
+    }
+]

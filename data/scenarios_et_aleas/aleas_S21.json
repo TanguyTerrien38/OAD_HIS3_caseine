@@ -1,0 +1,21 @@
+[
+    {
+        "day_trigger": 2.0,
+        "text": "Gros problème sur Finition Miroirs (+16h). Assembleur C a un imprévu au J6.",
+        "diff": "Difficile",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "task_delay",
+                "target_task": "Finition Miroirs",
+                "added_duration": 16
+            },
+            {
+                "type": "absence",
+                "target": "Assembleur C",
+                "duration": 1.0,
+                "day_trigger": 5.0
+            }
+        ]
+    }
+]

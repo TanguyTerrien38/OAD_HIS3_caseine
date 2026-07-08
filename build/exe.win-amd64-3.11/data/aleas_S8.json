@@ -1,0 +1,15 @@
+[
+    {
+        "day_trigger": 5.0,
+        "text": "Retard : La tâche 'Cataphorèse' est prolongée de 16h.",
+        "diff": "Facile",
+        "resolved": false,
+        "effects": [
+            {
+                "type": "task_delay",
+                "target_task": "Cataphorèse",
+                "added_duration": 16
+            }
+        ]
+    }
+]
