@@ -2,7 +2,7 @@
 
 Une application interactive et visuelle d'aide à la planification, développée en Python avec **Pygame**. Cet outil intègre un moteur de résolution de contraintes (**IBM ILOG CP OPTIMIZER**) pour assister l'utilisateur dans l'assignation de tâches, la résolution de conflits et l'optimisation d'un planning sous contraintes.
 
-## 🌟 Fonctionnalités Principales
+## Fonctionnalités Principales
 
 * **Interface Graphique Interactive (Gantt) :** Déplacement de tâches par glisser-déposer, ajustement dynamique, et navigation fluide dans le temps.
 * **Trois Modes Intégrés :**
@@ -21,13 +21,13 @@ Une application interactive et visuelle d'aide à la planification, développée
 
 ---
 
-## 🚀 Utilisation (Pour les participants / utilisateurs finaux)
+## Utilisation (Pour les participants / utilisateurs finaux)
 
 L'application a été packagée pour fonctionner directement sous Windows, **sans aucune installation préalable requise**.
 
 1. Téléchargez ce dépôt GitHub en .zip.
 2. Extrayez l'intégralité du dossier sur votre ordinateur.
-3. Lancez simplement le fichier **`Experience_OAD.exe`**.
+3. Allez dans le dossier build et lancez simplement le fichier **`Experience_OAD.exe`**.
 
 > **Note :** Le chargement initial peut prendre quelques secondes. L'application se lancera en plein écran.
 
